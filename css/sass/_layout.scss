@@ -1,0 +1,18 @@
+// luke@nukeourlimo.co.uk - Oct 03 2012
+
+// Identify mobile
+// -----------------------------------------------------
+
+body:after {
+	content: 'mobile';
+	display: none;
+}	
+
+@include respond-min($size-iphone-land){
+
+	body:after {
+		content: 'desk';
+		display: none;
+	}		
+
+}

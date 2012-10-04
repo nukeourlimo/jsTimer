@@ -1,0 +1,133 @@
+//Thank you spritecow.com!
+
+.sprite {
+	background-image: url(../images/sprites.png);
+	background-repeat: no-repeat;
+	
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-size: (460px/2) (328px/2);
+	}	
+}
+
+.tap-logo-white {
+	background-position: -3px -3px;
+	width: 100px;
+	height: 17px;
+
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-position:  (-3px/2) (-42px/2);
+		width: (200px/2);
+		height: (34px/2);
+	}
+}
+
+.tap-logo-black {
+	background-position:  -3px -164px;
+	width: 100px;
+	height: 17px;
+
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-position: -3px -185px;
+		width: (200px/2);
+		height: (34px/2);
+	}
+}
+
+
+.signup-button-bg {
+	background-position: -106px -3px;
+	width: 59px;
+	height: 22px;
+	
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-position: (-209px/2) (-42px/2);
+		width: (118px/2);
+		height: (44px/2);
+	}
+}
+
+.facebook-logo {
+	background-position: -168px -3px;
+	width: 17px;
+	height: 17px;
+	
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-position: (-333px/2) (-42px/2);
+		width: (34px/2);
+		height: (34px/2);
+	}
+}
+
+.twitter-logo-white {
+	background-position: -187px -3px;
+	width: 20px;
+	height: 17px;
+
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-position: (-371px/2) (-42px/2);
+		width: (40px/2);
+		height: (34px/2);
+	}
+}
+
+.twitter-logo-black {
+	background-position: -106px -164px;
+	width: 20px;
+	height: 17px;
+	
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-position: (-209px/2) (-185px/2);
+		width: (40px/2);
+		height: (34px/2);
+	}	
+}
+
+
+.googleplay-button {
+	background-position: -210px -3px;
+	width: 107px;
+	height: 36px;
+
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-position: (-3px/2) (-89px/2);
+		width: (214px/2);
+		height: (72px/2);	
+	}
+}
+
+.appstore-button {
+	background-position: -320px -3px;
+	width: 107px;
+	height: 36px;
+
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-position: (-220px/2) (-89px/2);
+		width: (214px/2);
+		height: (72px/2);
+	}
+}
+
+
+.left-arrow-white {
+	background-position: -430px -3px;
+	width: 11px;
+	height: 19px;
+
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background: (-414px/2) (-42px/2);
+		width: (22px/2);
+		height: (38px/2);
+	}
+}
+
+.right-arrow-white {
+	background-position: -442px -3px;
+	width: 11px;
+	height: 19px;
+
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-position: (-437px/2) -(42px/2);
+		width: (22px/2);
+		height: (38px/2);
+	}
+}
